@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4FE1DE9B1F9633CB00515A80 /* SimpleDemonstration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDemonstration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE1DE9B1F9633CB00515A80 /* FerrisWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FerrisWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE1DE9E1F9633CB00515A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FE1DEA01F9633CB00515A80 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		4FE1DEA21F9633CB00515A80 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -47,10 +47,10 @@
 		4FE1DEAB1F9633CB00515A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FE1DEAE1F9633CB00515A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FE1DEB01F9633CB00515A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FE1DEB51F9633CB00515A80 /* SimpleDemonstrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDemonstrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE1DEB51F9633CB00515A80 /* FerrisWheelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FerrisWheelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE1DEB91F9633CB00515A80 /* SimpleDemonstrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDemonstrationTests.swift; sourceTree = "<group>"; };
 		4FE1DEBB1F9633CB00515A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FE1DEC01F9633CB00515A80 /* SimpleDemonstrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDemonstrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE1DEC01F9633CB00515A80 /* FerrisWheelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FerrisWheelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE1DEC41F9633CB00515A80 /* SimpleDemonstrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDemonstrationUITests.swift; sourceTree = "<group>"; };
 		4FE1DEC61F9633CB00515A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,9 +93,9 @@
 		4FE1DE9C1F9633CB00515A80 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4FE1DE9B1F9633CB00515A80 /* SimpleDemonstration.app */,
-				4FE1DEB51F9633CB00515A80 /* SimpleDemonstrationTests.xctest */,
-				4FE1DEC01F9633CB00515A80 /* SimpleDemonstrationUITests.xctest */,
+				4FE1DE9B1F9633CB00515A80 /* FerrisWheel.app */,
+				4FE1DEB51F9633CB00515A80 /* FerrisWheelTests.xctest */,
+				4FE1DEC01F9633CB00515A80 /* FerrisWheelUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,9 +137,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4FE1DE9A1F9633CB00515A80 /* SimpleDemonstration */ = {
+		4FE1DE9A1F9633CB00515A80 /* FerrisWheel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FE1DEC91F9633CB00515A80 /* Build configuration list for PBXNativeTarget "SimpleDemonstration" */;
+			buildConfigurationList = 4FE1DEC91F9633CB00515A80 /* Build configuration list for PBXNativeTarget "FerrisWheel" */;
 			buildPhases = (
 				4FE1DE971F9633CB00515A80 /* Sources */,
 				4FE1DE981F9633CB00515A80 /* Frameworks */,
@@ -149,14 +149,14 @@
 			);
 			dependencies = (
 			);
-			name = SimpleDemonstration;
+			name = FerrisWheel;
 			productName = SimpleDemonstration;
-			productReference = 4FE1DE9B1F9633CB00515A80 /* SimpleDemonstration.app */;
+			productReference = 4FE1DE9B1F9633CB00515A80 /* FerrisWheel.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4FE1DEB41F9633CB00515A80 /* SimpleDemonstrationTests */ = {
+		4FE1DEB41F9633CB00515A80 /* FerrisWheelTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FE1DECC1F9633CB00515A80 /* Build configuration list for PBXNativeTarget "SimpleDemonstrationTests" */;
+			buildConfigurationList = 4FE1DECC1F9633CB00515A80 /* Build configuration list for PBXNativeTarget "FerrisWheelTests" */;
 			buildPhases = (
 				4FE1DEB11F9633CB00515A80 /* Sources */,
 				4FE1DEB21F9633CB00515A80 /* Frameworks */,
@@ -167,14 +167,14 @@
 			dependencies = (
 				4FE1DEB71F9633CB00515A80 /* PBXTargetDependency */,
 			);
-			name = SimpleDemonstrationTests;
+			name = FerrisWheelTests;
 			productName = SimpleDemonstrationTests;
-			productReference = 4FE1DEB51F9633CB00515A80 /* SimpleDemonstrationTests.xctest */;
+			productReference = 4FE1DEB51F9633CB00515A80 /* FerrisWheelTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4FE1DEBF1F9633CB00515A80 /* SimpleDemonstrationUITests */ = {
+		4FE1DEBF1F9633CB00515A80 /* FerrisWheelUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FE1DECF1F9633CB00515A80 /* Build configuration list for PBXNativeTarget "SimpleDemonstrationUITests" */;
+			buildConfigurationList = 4FE1DECF1F9633CB00515A80 /* Build configuration list for PBXNativeTarget "FerrisWheelUITests" */;
 			buildPhases = (
 				4FE1DEBC1F9633CB00515A80 /* Sources */,
 				4FE1DEBD1F9633CB00515A80 /* Frameworks */,
@@ -185,9 +185,9 @@
 			dependencies = (
 				4FE1DEC21F9633CB00515A80 /* PBXTargetDependency */,
 			);
-			name = SimpleDemonstrationUITests;
+			name = FerrisWheelUITests;
 			productName = SimpleDemonstrationUITests;
-			productReference = 4FE1DEC01F9633CB00515A80 /* SimpleDemonstrationUITests.xctest */;
+			productReference = 4FE1DEC01F9633CB00515A80 /* FerrisWheelUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4FE1DE961F9633CB00515A80 /* Build configuration list for PBXProject "SimpleDemonstration" */;
+			buildConfigurationList = 4FE1DE961F9633CB00515A80 /* Build configuration list for PBXProject "FerrisWheel" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -229,9 +229,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4FE1DE9A1F9633CB00515A80 /* SimpleDemonstration */,
-				4FE1DEB41F9633CB00515A80 /* SimpleDemonstrationTests */,
-				4FE1DEBF1F9633CB00515A80 /* SimpleDemonstrationUITests */,
+				4FE1DE9A1F9633CB00515A80 /* FerrisWheel */,
+				4FE1DEB41F9633CB00515A80 /* FerrisWheelTests */,
+				4FE1DEBF1F9633CB00515A80 /* FerrisWheelUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -297,12 +297,12 @@
 /* Begin PBXTargetDependency section */
 		4FE1DEB71F9633CB00515A80 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4FE1DE9A1F9633CB00515A80 /* SimpleDemonstration */;
+			target = 4FE1DE9A1F9633CB00515A80 /* FerrisWheel */;
 			targetProxy = 4FE1DEB61F9633CB00515A80 /* PBXContainerItemProxy */;
 		};
 		4FE1DEC21F9633CB00515A80 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4FE1DE9A1F9633CB00515A80 /* SimpleDemonstration */;
+			target = 4FE1DE9A1F9633CB00515A80 /* FerrisWheel */;
 			targetProxy = 4FE1DEC11F9633CB00515A80 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -441,8 +441,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MLFS2H9MA4;
 				INFOPLIST_FILE = SimpleDemonstration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ordrstudio.SimpleDemonstration;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ordrstudio.ferriswheel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,8 +457,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MLFS2H9MA4;
 				INFOPLIST_FILE = SimpleDemonstration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ordrstudio.SimpleDemonstration;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ordrstudio.ferriswheel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -477,7 +479,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleDemonstration.app/SimpleDemonstration";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FerrisWheel.app/FerrisWheel";
 			};
 			name = Debug;
 		};
@@ -494,7 +496,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleDemonstration.app/SimpleDemonstration";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FerrisWheel.app/FerrisWheel";
 			};
 			name = Release;
 		};
@@ -533,7 +535,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4FE1DE961F9633CB00515A80 /* Build configuration list for PBXProject "SimpleDemonstration" */ = {
+		4FE1DE961F9633CB00515A80 /* Build configuration list for PBXProject "FerrisWheel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FE1DEC71F9633CB00515A80 /* Debug */,
@@ -542,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FE1DEC91F9633CB00515A80 /* Build configuration list for PBXNativeTarget "SimpleDemonstration" */ = {
+		4FE1DEC91F9633CB00515A80 /* Build configuration list for PBXNativeTarget "FerrisWheel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FE1DECA1F9633CB00515A80 /* Debug */,
@@ -551,7 +553,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FE1DECC1F9633CB00515A80 /* Build configuration list for PBXNativeTarget "SimpleDemonstrationTests" */ = {
+		4FE1DECC1F9633CB00515A80 /* Build configuration list for PBXNativeTarget "FerrisWheelTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FE1DECD1F9633CB00515A80 /* Debug */,
@@ -560,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FE1DECF1F9633CB00515A80 /* Build configuration list for PBXNativeTarget "SimpleDemonstrationUITests" */ = {
+		4FE1DECF1F9633CB00515A80 /* Build configuration list for PBXNativeTarget "FerrisWheelUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FE1DED01F9633CB00515A80 /* Debug */,
